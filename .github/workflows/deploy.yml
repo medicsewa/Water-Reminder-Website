@@ -1,4 +1,4 @@
-name: Medic Sewa Deployment
+name: Sip It Deployment
 
 on:
   push:

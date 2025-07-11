@@ -1,134 +1,125 @@
+import { Link } from "react-router-dom";
+
 const TermAndConditionPage = () => {
   return (
-    <main className="w-[80%] py-8 mx-auto">
-      <p className="text-lg font-bold mt-[120px]">
-        Terms and Conditions for Medic Sewa Pvt. Ltd.
-      </p>
-      <p className="text-sm">
-        Last updated: 24<sup>th</sup> October, 2024
-      </p>
+    <main className="w-[80%] py-16 mx-auto my-auto">
+      <div className="flex flex-col">
+        <p className="text-lg font-bold">
+          Terms and Conditions for Sip It - Water Reminder
+        </p>
+        <p className="text-sm">Effective Date: July 12, 2025</p>
 
-      <p className="mt-8">
-        Welcome to <strong>Medic Sewa Pvt. Ltd.</strong> ("the App"). These
-        Terms and Conditions ("Terms") govern your use of our application and
-        services provided through the integration of WhatsApp for advertising
-        and business reminders. By accessing or using the App, you agree to be
-        bound by these Terms. If you do not agree to these Terms, please do not
-        use the App.
-      </p>
-      <div className="flex flex-col space-y-4 mt-8">
-        <section>
-          <h2 className="font-semibold">1. General Use</h2>
-          <p>
-            1.1. The App is provided for business purposes, including sending
-            messages, advertisements, and business reminders through WhatsApp to
-            users who have opted in.
-          </p>
-          <p>
-            1.2. You must comply with all applicable local, state, national, and
-            international laws, including WhatsApp’s Terms of Service and
-            Facebook’s Terms for Business.
-          </p>
-        </section>
-        <section>
-          <h2 className="font-semibold">2. Data Collection and Privacy</h2>
-          <p>
-            2.1. We respect your privacy and are committed to protecting your
-            personal information. Please refer to our{" "}
-            <a href="/privacy-policy.html">Privacy Policy</a> for more
-            information on how we collect, use, and protect your data.
-          </p>
-          <p>
-            2.2. By using the App, you agree that we may collect, store, and use
-            certain data as necessary to operate the App, including your contact
-            information and usage activity.
-          </p>
-          <p>
-            2.3. We do not sell or share your personal information with third
-            parties without your consent unless required by law.
-          </p>
-        </section>
-        <section>
-          <h2 className="font-semibold">3. Opt-in and Opt-out for Messaging</h2>
-          <p>
-            3.1. You must ensure that all users receiving messages via WhatsApp
-            have explicitly opted in to receive communications from your
-            business.
-          </p>
-          <p>
-            3.2. Users can opt out of receiving messages at any time by
-            following the opt-out instructions provided in each message or by
-            contacting us directly.
-          </p>
-          <p>
-            3.3. Failure to adhere to the opt-in and opt-out policy may result
-            in the suspension or termination of your use of the App.
-          </p>
-        </section>
+        <p className="mt-8">
+          Please read these Terms and Conditions ("Terms") carefully before
+          using the Sip It mobile application (the "App") operated by us.
+        </p>
+        <p>
+          Your access to and use of the App is conditioned on your acceptance of
+          and compliance with these Terms. These Terms apply to all visitors,
+          users, and others who access or use the App. By accessing or using the
+          App, you agree to be bound by these Terms. If you disagree with any
+          part of the terms, then you may not access the App.
+        </p>
 
-        <section>
-          <h2 className="font-semibold">4. Prohibited Activities</h2>
-          <p>4.1. You agree not to use the App to:</p>
-          <ul>
-            <li>Send unsolicited or spam messages.</li>
-            <li>Harass, abuse, or harm other individuals or businesses.</li>
-            <li>Violate any applicable laws or WhatsApp’s Terms of Service.</li>
-            <li>Misrepresent your business or services.</li>
-          </ul>
-          <p>
-            4.2. The App must not be used to promote illegal, fraudulent, or
-            unethical activities.
-          </p>
-        </section>
+        <h2 className="mt-4 font-bold">1. User Accounts</h2>
+        <p>
+          To use certain features of the App, you must register for an account.
+          When you create an account with us, you must provide information that
+          is accurate and complete. You are responsible for safeguarding the
+          password that you use to access the App and for any activities or
+          actions under your password. You agree not to disclose your password
+          to any third party. You must notify us immediately upon becoming aware
+          of any breach of security or unauthorized use of your account.
+        </p>
 
-        <section>
-          <h2 className="font-semibold">5. Intellectual Property</h2>
-          <p>
-            5.1. All content, trademarks, and other intellectual property used
-            in the App are owned by or licensed to
-            <strong>Medic Sewa Pvt. Ltd.</strong>.
-          </p>
-          <p>
-            5.2. You may not copy, distribute, or otherwise use any content from
-            the App without prior written consent.
-          </p>
-        </section>
+        <h2 className="mt-4 font-bold">2. Use of the App</h2>
+        <p>
+          You agree not to use the App for any purpose that is illegal or
+          prohibited by these Terms. You agree not to:
+        </p>
+        <ul className="list-disc ml-6">
+          <li>
+            Attempt to decompile, reverse engineer, or disassemble the App.
+          </li>
+          <li>
+            Use the App in any way that could damage, disable, or impair the
+            service.
+          </li>
+          <li>Use the App to distribute spam or other unsolicited messages.</li>
+          <li>Violate any applicable laws or regulations.</li>
+        </ul>
 
-        <section>
-          <h2 className="font-semibold">6. Limitation of Liability</h2>
-          <p>
-            6.1. The App is provided "as is" without warranties of any kind. We
-            do not guarantee the uninterrupted availability or accuracy of the
-            App.
-          </p>
-          <p>
-            6.2. <strong>Medic Sewa Pvt. Ltd.</strong> shall not be liable for
-            any damages, including direct, indirect, incidental, or
-            consequential damages, arising from the use of the App or any
-            third-party services, including WhatsApp.
-          </p>
-        </section>
+        <h2 className="mt-4 font-bold">3. Advertisements</h2>
+        <p>
+          The App is a free service supported by advertisements. By using the
+          App, you agree to see advertisements from third-party networks, such
+          as Google AdMob. These ads are a condition of using the App.
+        </p>
 
-        <section>
-          <h2 className="font-semibold">7. Termination</h2>
-          <p>
-            7.1. We reserve the right to terminate or suspend your access to the
-            App at any time, without notice, for conduct that we believe
-            violates these Terms or is harmful to other users.
-          </p>
-          <p>
-            7.2. Upon termination, you must cease all use of the App, and any
-            rights granted to you under these Terms will be revoked.
-          </p>
-        </section>
+        <h2 className="mt-4 font-bold">4. Intellectual Property</h2>
+        <p>
+          The App and its original content (excluding content provided by
+          users), features, functionality, and logo are and will remain the
+          exclusive property of the App's creators. Our trademarks and trade
+          dress may not be used in connection with any product or service
+          without our prior written consent.
+        </p>
 
-        <section>
-          <h2 className="font-semibold">8. Modifications to Terms</h2>
-          <p>
-            8.1. We may revise these Terms from time to time by posting an
-            updated version on the App.
-          </p>
-        </section>
+        <h2 className="mt-4 font-bold">5. Termination</h2>
+        <p>
+          We may terminate or suspend your account and bar access to the App
+          immediately, without prior notice or liability, under our sole
+          discretion, for any reason whatsoever and without limitation,
+          including but not limited to a breach of the Terms.
+        </p>
+        <p>
+          If you wish to terminate your account, you may simply discontinue
+          using the App and can request account deletion by contacting us.
+        </p>
+
+        <h2 className="mt-4 font-bold">6. Disclaimer of Warranty</h2>
+        <p>
+          The App is provided on an "AS IS" and "AS AVAILABLE" basis. We do not
+          warrant that the App will be uninterrupted, error-free, or secure. The
+          use of the App is at your own risk. We make no guarantees as to the
+          accuracy of health-related information or suggestions provided by the
+          App; it is for informational purposes only and is not a substitute for
+          professional medical advice.
+        </p>
+
+        <h2 className="mt-4 font-bold">7. Limitation of Liability</h2>
+        <p>
+          In no event shall we, nor our directors, employees, partners, or
+          agents, be liable for any indirect, incidental, special,
+          consequential, or punitive damages, including without limitation, loss
+          of profits, data, use, goodwill, or other intangible losses, resulting
+          from your access to or use of or inability to access or use the App.
+        </p>
+
+        <h2 className="mt-4 font-bold">8. Governing Law</h2>
+        <p>
+          These Terms shall be governed and construed in accordance with the
+          laws of [Your Country/State], without regard to its conflict of law
+          provisions.
+        </p>
+
+        <h2 className="mt-4 font-bold">9. Changes to These Terms</h2>
+        <p>
+          We reserve the right, at our sole discretion, to modify or replace
+          these Terms at any time. We will provide notice of any changes by
+          posting the new Terms within the App or on our Play Store listing. By
+          continuing to access or use our App after any revisions become
+          effective, you agree to be bound by the revised terms.
+        </p>
+
+        <h2 className="mt-4 font-bold">10. Contact Us</h2>
+        <p>
+          If you have any questions about these Terms, please contact us at:{" "}
+          <strong>info@medicsewa.com</strong>
+        </p>
+        <div className="text-center mt-8">
+          <Link to="/">Go Back</Link>
+        </div>
       </div>
     </main>
   );
